@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50964" started-at="2023-03-15T13:36:44 IST" finished-at="2023-03-15T13:37:35 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50964" started-at="2023-03-15T13:36:44 IST" finished-at="2023-03-15T13:37:35 IST">
+      <class name="testscripts.PurchaseOrderTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testscripts.PurchaseOrderTest@77846d2c]" name="setup" is-config="true" duration-ms="7347" started-at="2023-03-15T13:36:44 IST" finished-at="2023-03-15T13:36:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginPageTest()[pri:1, instance:testscripts.PurchaseOrderTest@77846d2c]" name="LoginPageTest" duration-ms="3056" started-at="2023-03-15T13:36:51 IST" finished-at="2023-03-15T13:36:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testscripts.PurchaseOrderTest@77846d2c]" name="tearDown" is-config="true" duration-ms="8" started-at="2023-03-15T13:36:54 IST" finished-at="2023-03-15T13:36:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginPageTest status=SUCCESS method=PurchaseOrderTest.LoginPageTest()[pri:1, instance:testscripts.PurchaseOrderTest@77846d2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="AddItemTest(java.lang.String,java.lang.String)[pri:2, instance:testscripts.PurchaseOrderTest@77846d2c]" name="AddItemTest" duration-ms="7298" started-at="2023-03-15T13:36:55 IST" data-provider="Multipledata" finished-at="2023-03-15T13:37:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Phones]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nokia lumia 1520]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddItemTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testscripts.PurchaseOrderTest@77846d2c]" name="tearDown" is-config="true" duration-ms="2" started-at="2023-03-15T13:37:02 IST" finished-at="2023-03-15T13:37:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddItemTest status=SUCCESS method=PurchaseOrderTest.AddItemTest(java.lang.String,java.lang.String)[pri:2, instance:testscripts.PurchaseOrderTest@77846d2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="AddItemTest(java.lang.String,java.lang.String)[pri:2, instance:testscripts.PurchaseOrderTest@77846d2c]" name="AddItemTest" duration-ms="6982" started-at="2023-03-15T13:37:02 IST" data-provider="Multipledata" finished-at="2023-03-15T13:37:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Phones]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sony xperia z5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddItemTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testscripts.PurchaseOrderTest@77846d2c]" name="tearDown" is-config="true" duration-ms="1" started-at="2023-03-15T13:37:09 IST" finished-at="2023-03-15T13:37:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddItemTest status=SUCCESS method=PurchaseOrderTest.AddItemTest(java.lang.String,java.lang.String)[pri:2, instance:testscripts.PurchaseOrderTest@77846d2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="AddItemTest(java.lang.String,java.lang.String)[pri:2, instance:testscripts.PurchaseOrderTest@77846d2c]" name="AddItemTest" duration-ms="8677" started-at="2023-03-15T13:37:09 IST" data-provider="Multipledata" finished-at="2023-03-15T13:37:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Laptops]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dell i7 8gb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddItemTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testscripts.PurchaseOrderTest@77846d2c]" name="tearDown" is-config="true" duration-ms="1" started-at="2023-03-15T13:37:18 IST" finished-at="2023-03-15T13:37:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddItemTest status=SUCCESS method=PurchaseOrderTest.AddItemTest(java.lang.String,java.lang.String)[pri:2, instance:testscripts.PurchaseOrderTest@77846d2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="AddItemTest(java.lang.String,java.lang.String)[pri:2, instance:testscripts.PurchaseOrderTest@77846d2c]" name="AddItemTest" duration-ms="8497" started-at="2023-03-15T13:37:18 IST" data-provider="Multipledata" finished-at="2023-03-15T13:37:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Monitors]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ASUS Full HD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddItemTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testscripts.PurchaseOrderTest@77846d2c]" name="tearDown" is-config="true" duration-ms="1" started-at="2023-03-15T13:37:26 IST" finished-at="2023-03-15T13:37:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddItemTest status=SUCCESS method=PurchaseOrderTest.AddItemTest(java.lang.String,java.lang.String)[pri:2, instance:testscripts.PurchaseOrderTest@77846d2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="CartTest()[pri:3, instance:testscripts.PurchaseOrderTest@77846d2c]" name="CartTest" duration-ms="1739" started-at="2023-03-15T13:37:26 IST" finished-at="2023-03-15T13:37:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testscripts.PurchaseOrderTest@77846d2c]" name="tearDown" is-config="true" duration-ms="1" started-at="2023-03-15T13:37:28 IST" finished-at="2023-03-15T13:37:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CartTest status=SUCCESS method=PurchaseOrderTest.CartTest()[pri:3, instance:testscripts.PurchaseOrderTest@77846d2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="deleteItems()[pri:4, instance:testscripts.PurchaseOrderTest@77846d2c]" name="deleteItems" duration-ms="312" started-at="2023-03-15T13:37:28 IST" finished-at="2023-03-15T13:37:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteItems -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testscripts.PurchaseOrderTest@77846d2c]" name="tearDown" is-config="true" duration-ms="0" started-at="2023-03-15T13:37:28 IST" finished-at="2023-03-15T13:37:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteItems status=SUCCESS method=PurchaseOrderTest.deleteItems()[pri:4, instance:testscripts.PurchaseOrderTest@77846d2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="PurchaseTest()[pri:5, instance:testscripts.PurchaseOrderTest@77846d2c]" name="PurchaseTest" duration-ms="6250" started-at="2023-03-15T13:37:28 IST" finished-at="2023-03-15T13:37:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testscripts.PurchaseOrderTest@77846d2c]" name="tearDown" is-config="true" duration-ms="1" started-at="2023-03-15T13:37:34 IST" finished-at="2023-03-15T13:37:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PurchaseTest status=SUCCESS method=PurchaseOrderTest.PurchaseTest()[pri:5, instance:testscripts.PurchaseOrderTest@77846d2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testscripts.PurchaseOrderTest@77846d2c]" name="closeApp" is-config="true" duration-ms="633" started-at="2023-03-15T13:37:34 IST" finished-at="2023-03-15T13:37:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testscripts.PurchaseOrderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
