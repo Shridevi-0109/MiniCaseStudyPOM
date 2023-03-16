@@ -14,8 +14,7 @@ public class LoginPage extends testBase {
 	
 	@FindBy(id = "login2")
 	WebElement loginbtn;
-	
-	
+		
 	@FindBy(id="loginusername")
 	WebElement name;
 	
@@ -36,8 +35,9 @@ public class LoginPage extends testBase {
 		extentTest = reports.createTest("Login Test");
 		loginbtn.click();
 		name.sendKeys(prop.getProperty("username"));
-		wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+		wait = new WebDriverWait(driver,Duration.ofSeconds(30));
 		password.sendKeys(prop.getProperty("password"));
+		wait = new WebDriverWait(driver,Duration.ofSeconds(30));
 		submitloginbtn.click();
 			
 	}

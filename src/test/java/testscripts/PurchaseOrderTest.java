@@ -21,7 +21,6 @@ import com.opencsv.exceptions.CsvValidationException;
 import base.testBase;
 import commonUtils.Utility;
 import pages.CartPage;
-import pages.DeletePage;
 import pages.LoginPage;
 import pages.PurchasePage;
 import pages.HomePage;
@@ -30,12 +29,9 @@ public class PurchaseOrderTest extends testBase
 {
 
 	WebDriverWait wait;
-	String price;
 	LoginPage logIn;
 	HomePage item;
 	CartPage cart;
-	public int cartsize;
-	DeletePage del;
 	PurchasePage purchase;
 	
 	  @BeforeTest
@@ -70,25 +66,16 @@ public class PurchaseOrderTest extends testBase
   		  datalist.add(record);
   	  }
   	  	return datalist.toArray(new Object[datalist.size()][]);  	  
-   }
+ }
 	
-	
-      @Test(priority=3)
- 	  public void CartTest() {
-		  cart=new CartPage();
-		  cart.cart();
-		  cartsize=cart.cartsize;
-		  price=cart.price;
-	  }
-
-	  @Test(priority=4)
-	    public void deleteItems() throws InterruptedException {
-	    	DeletePage del = new DeletePage();
-			del.deleteItem();
+	 @Test(priority=3)
+     public void DeleteItemTest() throws InterruptedException {
+			cart = new CartPage();
+			cart.delete();			
 	  }
   
-     @Test(priority=5)
-     public void PurchaseTest() throws InterruptedException {
+     @Test(priority=4)
+     public void PlaceOrderTest() throws InterruptedException {
 	  Thread.sleep(3000);
 	  purchase = new PurchasePage();
 	  purchase.placeOrder();	  
@@ -105,10 +92,7 @@ public class PurchaseOrderTest extends testBase
      
      @AfterTest
      public void closeApp() {
-    	 driver.close();
     	 reports.flush();
      }
-    
-	
 }
 

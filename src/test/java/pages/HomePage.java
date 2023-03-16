@@ -15,7 +15,6 @@ import base.testBase;
 public class HomePage extends testBase{
 	Alert alert;
 	WebDriverWait wait;
-
 	
 	@FindBy(xpath="(//ul/li/a)[1]")
 	public WebElement home;
